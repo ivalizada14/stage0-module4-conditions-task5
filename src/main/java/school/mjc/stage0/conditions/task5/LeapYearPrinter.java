@@ -6,7 +6,7 @@ public class LeapYearPrinter {
         {
             case 0:
                 if(year%100==0&&year%400!=0)
-                    break;
+                    System.out.println("not leap");
                 System.out.println("leap");
                 break;
             default:
